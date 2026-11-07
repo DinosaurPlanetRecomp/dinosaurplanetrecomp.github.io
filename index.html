@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="Dinosaur Planet: Recompiled" />
+  <meta property="og:description" 
+        content="A static recompilation/native port of Dinosaur Planet (N64)." />
+  <meta property="og:image" content="images/icon.png" />
+  
+  <title>Dinosaur Planet: Recompiled</title>
+  
+  <!-- <base href="/" /> -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#landing">
+        <img src="images/logo.png"/>
+      </a>
+      <div class="divider"></div>
+      <a class="nav-btn" href="#features">Features</a>
+      <div class="divider hide-sm"></div>
+      <a class="nav-btn hide-sm" href="#download">Download</a>
+      <div class="divider hide-sm"></div>
+      <a class="nav-btn hide-sm" href="#dinomod-enhanced">Dinomod Enhanced</a>
+      <div class="divider"></div>
+      <a class="nav-btn" href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="anchor-target" id="landing"></div>
+    <div class="block landing">
+      <img src="images/star-red.svg" class="launcher-star launcher-star--big" style="left: 81%; top: 58%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--medium" style="left: 69%; top: 46%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--small" style="left: 74%; top: 69%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--tiny" style="left: 90%; top: 24%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 93%; top: 50%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 98%; top: 64%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 72%; top: 89%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--small" style="left: 79%; top: 20%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--medium" style="left: 55%; top: 94%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--tiny" style="left: 41%; top: 87%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 32%; top: 90%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 23%; top: 86%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--tiny" style="left: 8%; top: 93%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--small" style="left: 1%; top: 71%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--big" style="left: 28%; top: 69%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--tiny" style="left: 15%; top: 61%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--tiny" style="left: 29%; top: 50%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 9%; top: 59%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 0.5%; top: 51%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--small" style="left: 17%; top: 48%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--small" style="left: 13%; top: 48.5%" />
+      <img src="images/star-red.svg" class="launcher-star launcher-star--far" style="left: 18%; top: 36%" />
+      <img src="images/star-blu.svg" class="launcher-star launcher-star--far" style="left: 3%; top: 37%" />
+
+      <div class="logo">
+        <img src="images/DPLogo.png" alt="Dinosaur Planet"/>
+        <h1>RECOMPILED</h1>
+      </div>
+      <div class="landing-text">
+        A static recompilation/port of Dinosaur Planet (N64)* built using <a href="https://github.com/N64Recomp">N64Recomp</a> and <a href="https://github.com/rt64/rt64">RT64</a>.
+        <small class="landing-text-note">* The December 2000 prototype</small>
+      </div>
+      <div class="landing-btns">
+        <a href="#download" class="landing-download-btn">Download</a>
+        <a href="https://thunderstore.io/c/dinosaur-planet-recompiled/" class="landing-download-btn landing-download-btn-secondary">Mods</a>
+        <a href="https://discord.gg/SUrA4aV7UW" class="landing-download-btn landing-download-btn-secondary hide-sm">Discord</a>
+      </div>
+    </div> <!-- .block -->
+
+    <div class="anchor-target" id="features"></div>
+    <div class="block features-block">
+      <div class="block-content">
+        <div class="heading">
+          <h2 class="block-heading block-heading-shadow">Features</h2>
+          <a class="heading-anchor heading-anchor-big" href="#features">#</a>
+        </div>
+
+        <div class="features-row">
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Extensive mod support
+              </div>
+              <div class="card-desc">
+                Full modding support including texture packs. Mods can change anything in the game and can even add custom content! Community patches are fully supported via the <a href="#dinomod-enhanced">Dinomod Enhanced</a> mod.
+              </div>
+            </div>
+          </div>
+
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Widescreen
+              </div>
+              <div class="card-desc">
+                Play at any aspect ratio with most gameplay now supporting at least 16:9 (cutscene widescreen is a work-in-progress). The HUD can display at 4:3, 16:9, or ultra-wide depending on your preference.
+              </div>
+            </div>
+          </div>
+        </div> <!-- .features-row -->
+
+        <div class="features-row">
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Unlocked framerate
+              </div>
+              <div class="card-desc">
+                Custom framerate targets above the game's native 30 FPS are supported thanks to RT64! This is done without changing the game's internal tickrate and does not have a negative effect on gameplay.
+              </div>
+            </div>
+          </div>
+
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Control remapping
+              </div>
+              <div class="card-desc">
+                Button and analog controls can be fully remapped. This includes (limited) keyboard support.
+              </div>
+            </div>
+          </div>
+        </div> <!-- .features-row -->
+
+        <div class="features-row">
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Easy to setup
+              </div>
+              <div class="card-desc">
+                Simply provide the recomp <a href="#faq-where-can-i-obtain-a-rom">the ROM</a> (and preferably <a href="#dinomod-enhanced">Dinomod Enhanced</a>) and you're ready to play! The launcher has full controller and keyboard/mouse support for convenience.
+              </div>
+            </div>
+          </div>
+
+          <div class="features-col">
+            <div class="card">
+              <div class="card-title">
+                Expanded game options
+              </div>
+              <div class="card-desc">
+                The built-in game options have been expanded upon, now including: Configurable joystick deadzone and range (sensitivity). New options for HUD/minimap visibility. Individual volume sliders for music, ambience, sound effects, and dialog with optional subtitles. And more!
+              </div>
+            </div>
+          </div>
+        </div> <!-- .features-row -->
+      </div>
+    </div> <!-- .block -->
+
+    <div class="anchor-target" id="download"></div>
+    <div class="block">
+      <div class="block-content block-content-thinner">
+        <div class="heading">
+          <h2 class="block-heading">Download</h2>
+          <a class="heading-anchor heading-anchor-big" href="#download">#</a>
+        </div>
+
+        <p>
+          Download the latest version of Dinosaur Planet: Recompiled below. 
+        </p>
+
+        <blockquote>
+          It is <b>highly recommended</b> to also install the mod <a href="#dinomod-enhanced">Dinomod Enhanced</a> before playing!
+          <br/>
+          <a href="#faq-how-do-i-install-mods">How do I install mods?</a>
+        </blockquote>
+
+        <div class="download-aside">
+          <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp">View source code</a>
+          <br/>
+          <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp#system-requirements">System requirements</a>
+          <br/>
+          <a href="#faq-where-can-i-obtain-a-rom">Where can I obtain a ROM?</a>
+        </div>
+
+        <div class="download-version">
+          <h3 class="download-version-heading">v0.3.0</h3>
+          <table class="download-table">
+          <tbody>
+            <tr>
+              <td><img src="images/download.svg" class="download-icon"/></td>
+              <td>
+                <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip">
+                  Windows x64
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/download.svg" class="download-icon"/></td>
+              <td>
+                <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.flatpak">
+                  Linux x64 Flatpak
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/download.svg" class="download-icon"/></td>
+              <td>
+                <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.AppImage">
+                  Linux x64 AppImage
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/download.svg" class="download-icon"/></td>
+              <td>
+                <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.tar.gz">
+                  Linux x64 .tar.gz
+                </a>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <hr/>
+
+          <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/releases">Patch notes and previous releases</a>
+        </div>
+
+      </div>
+    </div> <!-- .block -->
+
+    <div class="anchor-target" id="dinomod-enhanced"></div>
+    <div class="block block-odd">
+      <div class="block-content block-content-thinner">
+        <div class="heading">
+          <h2 class="block-heading">Dinomod Enhanced</h2>
+          <a class="heading-anchor heading-anchor-big" href="#dinomod-enhanced">#</a>
+        </div>
+
+        <img class="dinomod-logo" src="images/dinomod-logo.png"/>
+
+        <p class="dinomod-desc">
+          Full support for the community patches and enhancements are provided by the mod Dinomod Enhanced. It is <b>highly recommended</b> to install this mod before playing.
+        </p>
+
+        <div class="dinomod-download-btn">
+          <a href="https://thunderstore.io/c/dinosaur-planet-recompiled/p/DinomodEnhanced/DinomodEnhanced/" class="fancy-btn ">Download on Thunderstore</a>
+        </div>
+
+        <h3 class="dinomod-why-heading">Why is this mod required?</h3>
+
+        <p>
+          The only publicly available version of Dinosaur Planet is an unfinished prototype that is very broken. It is not possible to progress beyond the first couple acts of the game without some kind of patch. Additionally, there is a lot of content inside the ROM that is otherwise inaccessible/incomplete even if you got to the location it's supposed to be playable at. Dinomod Enhanced is a mature long-term project built by many contributors that exists to fix these bugs, make progression possible, and restore as much content as possible so that the full game (as it exists) can be experienced.
+        </p>
+
+        <p>
+          Playing this port without Dinomod is possible if you want to experience the vanilla ROM but you will be missing out on the vast majority of the game and crashes are expected.
+        </p>
+
+      </div>
+    </div> <!-- .block -->
+
+    <div class="anchor-target" id="faq"></div>
+    <div class="block">
+      <div class="block-content block-content-thinner">
+        <div class="heading">
+          <h2 class="block-heading">FAQ</h2>
+          <a class="heading-anchor heading-anchor-big" href="#faq">#</a>
+        </div>
+
+        <div class="anchor-target" id="faq-where-can-i-obtain-a-rom"></div>
+        <div class="heading">
+          <h3>Where can I obtain a ROM?</h3>
+          <a class="heading-anchor" href="#faq-where-can-i-obtain-a-rom">#</a>
+        </div>
+        <p>
+          Dinosaur Planet: Recompiled requires you to provide your own copy of the December 2000 prototype ROM. As this game was never released, there is no way to legitimately obtain a copy. However, the release by Forest of Illusion is <a href="https://archive.org/details/dino_20210220">available on archive.org</a>.
+        </p>
+
+        <hr/>
+
+        <div class="anchor-target" id="faq-how-do-i-install-mods"></div>
+        <div class="heading">
+          <h3>How do I install mods?</h3>
+          <a class="heading-anchor" href="#faq-how-do-i-install-mods">#</a>
+        </div>
+        <p>
+          Mods can be installed by first launching the recomp and then either:
+          <ul>
+            <li>Drag and drop the mod file(s) (usually a .zip file) onto the window.</li>
+            <li>Or, click <b>Mods</b>, then <b>Install Mods</b>, and then select the mod file(s) to install. </li>
+          </ul>
+
+          If the mod downloaded as a .zip file, please <b>do not extract it first</b>. The recomp launcher will take care of extracting and installing the files contained within correctly.
+        </p>
+
+        <hr/>
+
+        <div class="anchor-target" id="faq-where-can-i-find-more-mods"></div>
+        <div class="heading">
+          <h3>Where can I find more mods?</h3>
+          <a class="heading-anchor" href="#faq-where-can-i-find-more-mods">#</a>
+        </div>
+        <p>
+          Additional mods can be found on our <a href="https://thunderstore.io/c/dinosaur-planet-recompiled/">Thunderstore community page</a>! Anyone is free to upload their own mods here to share with the community. <b>Please only install mods from authors you trust!</b>
+        </p>
+
+        <hr/>
+
+        <div class="anchor-target" id="faq-where-is-the-savefile"></div>
+        <div class="heading">
+          <h3>Where is the savefile located?</h3>
+          <a class="heading-anchor" href="#faq-where-is-the-savefile">#</a>
+        </div>
+        <p>
+          <ul>
+            <li>Windows: <pre class="inline-code">%LOCALAPPDATA%\DinoPlanetRecompiled\saves</pre></li>
+            <li>Linux: <pre class="inline-code">~/.config/DinoPlanetRecompiled/saves</pre></li>
+          </ul>
+        </p>
+
+        <hr/>
+
+        <div class="anchor-target" id="faq-how-does-the-recomp-differ"></div>
+        <div class="heading">
+          <h3>How does the recomp differ from the vanilla experience?</h3>
+          <a class="heading-anchor" href="#faq-how-does-the-recomp-differ">#</a>
+        </div>
+        <p>
+          Dinosaur Planet: Recompiled aims to patch as little as possible out of the box while still providing recomp-specific enhancements. The full list of changes <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/PATCHES.md">can be found here</a>. Please note that these changes are mostly technical and do not generally effect gameplay.
+        </p>
+
+        <hr/>
+
+        <div class="anchor-target" id="faq-i-have-other-questions"></div>
+        <div class="heading">
+          <h3>I have other questions!</h3>
+          <a class="heading-anchor" href="#faq-i-have-other-questions">#</a>
+        </div>
+        <p>
+          Additional information can be found in <a href="https://github.com/DinosaurPlanetRecomp/dino-recomp/blob/main/README.md">the project's README</a>. If your question is not listed or you would like to join the community, consider joining <a href="https://discord.gg/SUrA4aV7UW">the community Discord</a>!
+        </p>
+      </div>
+    </div> <!-- .block -->
+
+    <footer>
+      
+    </footer>
+
+  </main>
+  
+</body>
+</html>
