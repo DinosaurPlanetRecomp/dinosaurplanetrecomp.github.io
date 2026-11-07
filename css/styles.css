@@ -154,7 +154,7 @@ main {
   border-bottom: 4px solid #8f4e4e;
 
   &.block-odd {
-    background-color: #141414;
+    background-color: #171717;
   }
 
   &:last-of-type {
