@@ -131,14 +131,15 @@ header nav a.nav-btn {
 footer {
   display: block;
   width: 100%;
-  padding: 64px;
+  padding: 72px;
 
   background-color: #141414;
 
-  background-image: url('../images/wl.png');
+  background-image: url('../images/wl2.png');
   background-size: cover;
   background-position-x: center;
-  background-position-y: -145px;
+  background-position-y: 0;
+  background-repeat: no-repeat;
 }
 
 main {
