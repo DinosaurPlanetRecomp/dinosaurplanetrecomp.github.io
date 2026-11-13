@@ -185,10 +185,12 @@ main {
   justify-content: center;
 
   position: relative;
+  z-index: 1;
 }
 
 .launcher-star {
   position: absolute;
+  z-index: -1;
 }
 
 .launcher-star--far {
@@ -223,7 +225,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-bottom: 64px;
-  padding: 0px 16px;
+  padding: 0px 24px;
   width: 100%;
 }
 
@@ -238,6 +240,10 @@ main {
 }
 
 @media (max-width: 614px) {
+  .logo {
+    margin-bottom: 48px;
+  }
+
   .logo h1 {
     font-size: 28px;
   }
@@ -253,7 +259,8 @@ main {
   font-size: 18px;
   text-align: center;
   margin-bottom: 48px;
-  padding: 0px 16px;
+  padding: 0px 24px;
+  text-shadow: 1px 1px #000;
 }
 
 .landing-text .landing-text-note {
@@ -263,6 +270,20 @@ main {
 
 .landing-btns {
   padding: 0px 16px;
+}
+
+.landing-btns-download {
+  display: inline;    
+  margin-right: 8px;
+}
+
+@media (max-width: 614px) {
+  .landing-btns-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
 }
 
 .landing-download-btn {
@@ -533,4 +554,13 @@ blockquote {
 
 .inline-code {
   display: inline;
+  background: #222;
+  border-radius: 4px;
+  padding: 0px 4px;
+}
+
+@media (max-width: 614px) {
+  .inline-code {
+    white-space: break-spaces;
+  }
 }
